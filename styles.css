@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #ddd;
+  font-family: 'Roboto', sans-serif;
+  background-color: #222;
+  font-size: 28px;
+  min-width: 1600px;
+}
+
+section {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  display: grid;
+  grid-template-columns: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.square {
+  background-color: #ddd;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.binary {
+  transform: translate(0, -50%);
+  text-align: center;
+  font-size: 42px;
+  color: #222;
+}
+
+#decimal {
+  background-color: #ddd;
+  font-size: 28px;
+  border-radius: 5px;
+}
+
+#clicking {
+  margin-left: 30%;
+  margin-top: 15%;
+}
+
+form, #resultAnnouncement {
+  margin-top: 2%;
+  margin-left: 30%;
+}
